@@ -13,11 +13,13 @@
 
 ## Milestone 1: Setup, Planning, Design
 
-❗️**Title**: `What is the title of your project? Be creative! Replace this block of text.`
+❗️**Title**: `Generational Wisdom: Setting yourself up for success with Chinese Zodiology and Feng Shui`
 
-❗**Purpose**: `In a single sentence, describe WHAT your project will do. Replace this block of text.`
+❗**Purpose**: `Through an interactive GUI and the user's input, the program displays the user's chinese zodiac sign, 
+                their element, Kua number, compatability with their friends and beloved ones, as well as tips on how to 
+                set up their home space for success.`
 
-❗️**Source Assignment(s)**: `List which original assignments you will base your project on? Replace this block of text.`
+❗️**Source Assignment(s)**: `Homework 01: Breaking Bad`
 
 ❗️**CRC Card(s)**:
   - Create a CRC card for each class that your project will implement.
