@@ -13,13 +13,13 @@
 
 ## Milestone 1: Setup, Planning, Design
 
-❗️**Title**: `Generational Wisdom: Setting yourself up for success with Chinese Zodiology and Feng Shui`
+️**Title**: `Paving Your Way to Success with Chinese Metaphysics`
 
-❗**Purpose**: `Through an interactive GUI and the user's input, the program displays the user's chinese zodiac sign, 
-                their element, Kua number, compatability with their friends and beloved ones, as well as tips on how to 
-                set up their home space for success.`
+**Purpose**: `Through an interactive GUI and the user's input, the program displays the user's Chinese zodiac sign, 
+              their element, Kua number, compatability with their friends or beloved ones, as well as tips on how to 
+              set up their home space for success.`
 
-❗️**Source Assignment(s)**: `Homework 01: Breaking Bad`
+**Source Assignment(s)**: `Homework 01: Breaking Bad`
 
 ❗️**CRC Card(s)**:
   - Create a CRC card for each class that your project will implement.
@@ -31,15 +31,15 @@
   
 ![Don't leave me in your README!](image/crc.png "Image of CRC card as an example. Upload your CRC card(s) in place of this one. ")
 
-❗️**Branches**: This project will **require** effective use of git. 
+**Branches**: This project will **require** effective use of git. 
 
-❗Each partner should create a branch at the beginning of the project, and stay on this branch (or branches of their 
+Each partner should create a branch at the beginning of the project, and stay on this branch (or branches of their 
 branch) as they work. When you need to bring each others branches together, do so by merging each other's branches 
 into your own, following the process we've discussed in previous assignments, then re-branching out from the merged code.  
 
 ```
-    Branch 1 starting name: _____________
-    Branch 2 starting name: _____________
+    Branch 1 starting name: techap
+    Branch 2 starting name: kurasova
 ```
 
 ### References 
