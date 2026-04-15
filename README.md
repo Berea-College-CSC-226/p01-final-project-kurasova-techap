@@ -21,7 +21,7 @@
 
 **Source Assignment(s)**: `Homework 01: Breaking Bad`
 
-❗️**CRC Card(s)**:
+**CRC Card(s)**:
   - Create a CRC card for each class that your project will implement.
   - See this link for a sample CRC card and a template to use for your own cards (you will have to make a copy to edit):
     [CRC Card Example](https://docs.google.com/document/d/1JE_3Qmytk_JGztRqkPXWACJwciPH61VCx3idIlBCVFY/edit?usp=sharing)
@@ -29,7 +29,18 @@
     README. You can do this by saving an image in the repository and linking to it. See the sample CRC card below - 
     and REPLACE it with your own:
   
-![Don't leave me in your README!](image/crc.png "Image of CRC card as an example. Upload your CRC card(s) in place of this one. ")
+![KP.png](image/KP.png)
+![Zodiac sign.png](image/Zodiac%20sign.png)
+![Element.png](image/Element.png)
+![KN.png](image/KN.png)
+![Person.png](image/Person.png)
+![ZSC.png](image/ZSC.png)
+![EC.png](image/EC.png)
+![KNC.png](image/KNC.png)
+![Compatibility.png](image/Compatibility.png)
+![Form.png](image/Form.png)
+![Report.png](image/Report.png)
+![UI.png](image/UI.png)
 
 **Branches**: This project will **require** effective use of git. 
 
