@@ -1,0 +1,2 @@
+class ZodiacSign:
+    pass
