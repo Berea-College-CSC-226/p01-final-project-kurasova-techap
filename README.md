@@ -60,6 +60,14 @@ and describe how you integrated the ideas or code into your program. This includ
 helped you, AI tools you've used, and any other resources that are not solely your own contribution. Update this 
 section as you go. DO NOT forget about it!
 
+AbstractClasses.py: 
+- Used the abc module: https://docs.python.org/3/library/abc.html
+- Article on how to create abstract classes: https://www.w3schools.com/python/ref_module_abc.asp
+- Chinese New Year Calendars:
+  - https://www.themalatree.com/chinese-new-year-dates-1930-to-2030/
+  - https://greenwichmeantime.com/chinese-new-year/1950/
+  - https://taiwan-database.net/PDFs/WTFpdf23.pdf
+
 ---
 
 ## Milestone 2: Code Setup and Issue Queue
