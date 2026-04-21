@@ -87,11 +87,16 @@ ZodiacSignCompatibility.py:
 
 Most importantly, keep your issue queue up to date, and focus on your code. 🙃
 
-❗Reflect on what you’ve done so far. How’s it going? Are you feeling behind/ahead? What are you worried about? 
+Reflect on what you’ve done so far. How’s it going? Are you feeling behind/ahead? What are you worried about? 
 What has surprised you so far? Describe your general feelings. Be honest with yourself; this section is for you, not me.
 
 ```
-    **Replace this text with your reflection
+    - So far, we are making some progress towards the completion of the project. We're able to work as a team smoothly: we
+      meet up at least twice a week to discuss the tasks we were assigned and synchronize our work, making sure that we're 
+      both contributing to the project.
+    - We think we're ahead.
+    - We're worried about the design of the user interface.
+    - Ultimately, we're feeling good about the project and working towards its effective completion.  
 ```
 
 ---
