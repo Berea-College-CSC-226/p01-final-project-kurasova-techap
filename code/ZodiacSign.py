@@ -1,3 +1,18 @@
+######################################################################
+# Authors: Pride Akana Techa
+# Username: techap
+#
+# Assignment: P01 - Final Project
+#
+# Purpose: A class that returns your Chinese Zodiac sign, the image
+# representation, and a brief description of the characteristics
+# of your sign.
+#
+# Acknowledgements:
+# HW01: Breaking Bad
+#
+######################################################################
+
 from AbstractClasses import KPWithImages
 class ZodiacSign(KPWithImages):
     zodiac_sign = {
