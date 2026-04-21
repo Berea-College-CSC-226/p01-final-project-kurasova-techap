@@ -67,6 +67,19 @@ AbstractClasses.py:
   - https://www.themalatree.com/chinese-new-year-dates-1930-to-2030/
   - https://greenwichmeantime.com/chinese-new-year/1950/
   - https://taiwan-database.net/PDFs/WTFpdf23.pdf
+- Fixing a circular import issue that occurred in this file: https://www.youtube.com/watch?v=UnKa_t-M_kM
+
+Element.py: 
+- Article on how to evaluate your element according to Chinese Metaphysics: https://shopceremonie.com/blog1/how-to-determine-your-elements
+
+KuaNumber.py: 
+- Video and article on how to calculate the Kua Number:
+  - https://www.youtube.com/shorts/cy6r7imx4Uo
+  - https://wehomzfurn.com/blogs/decoration-ideas/how-to-calculate-your-kua-number-a-complete-guide-for-2026
+
+
+ZodiacSignCompatibility.py: 
+- Used Wikipedia for the Zodiac Sign Compatability table: https://en.wikipedia.org/wiki/Chinese_zodiac
 
 ---
 

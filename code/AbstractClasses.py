@@ -4,10 +4,8 @@
 #
 # Assignment: P01 - Final Project
 #
-# Purpose: Writing code for the KnowledgePiece class, which will
-# be used as a parent class for the following classes:
-# ZodiacSign, Element, KuaNumber, ZodiacSignCompatibility,
-# ElementCompatibility, and KuaNumberCompatibility
+# Purpose: Writing code for the abstract classes that will be
+# used for other classes of the project.
 ######################################################################
 # Acknowledgements:
 #   Used the abc module: https://docs.python.org/3/library/abc.html
@@ -16,6 +14,7 @@
 #       - https://www.themalatree.com/chinese-new-year-dates-1930-to-2030/
 #       - https://greenwichmeantime.com/chinese-new-year/1950/
 #       - https://taiwan-database.net/PDFs/WTFpdf23.pdf
+#   Fixing a circular import issue that occurred in this file: https://www.youtube.com/watch?v=UnKa_t-M_kM
 ######################################################################
 
 from abc import ABC, abstractmethod
@@ -45,6 +44,9 @@ class KnowledgePiece(ABC):
         :return: a string from self.description_dict
         """
         return self.description_dict.get(self.evaluate(), -1)
+
+    def __str__(self):
+        return str(self.value)
 
 """
 P.S.: The KnowledgePiece class allows you to write simpler classes,
@@ -170,3 +172,18 @@ class GenderedKP(DatedKP, ABC):
     def __init__(self, birth_year, biological_sex, birth_month, birth_day):
         self.biological_sex = biological_sex
         super().__init__(birth_year, birth_month, birth_day)
+
+class CompatibilityKP(KnowledgePiece, ABC):
+    """A knowledge piece that compares two people
+    (two Person objects)."""
+    def __init__(self, person_1, person_2):
+
+        import Person
+
+        assert isinstance(person_1, Person.Person)
+        assert type(person_1) is type(person_2)
+
+        self.person_1 = person_1
+        self.person_2 = person_2
+
+        super().__init__()
