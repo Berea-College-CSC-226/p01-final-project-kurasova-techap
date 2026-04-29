@@ -1,3 +1,15 @@
+#####################################################################
+# Authors: Artem Kurasov
+# Username: kurasova
+#
+# Assignment: P01 - Final Project
+#
+# Purpose: Writing code for the Compatibility class, which
+# collects all the information about compatibility between two people
+######################################################################
+# No Acknowledgments
+######################################################################
+
 from ZodiacSignCompatibility import ZodiacSignCompatibility
 from ElementCompatibility    import ElementCompatibility
 from KuaNumberCompatibility  import KuaNumberCompatibility

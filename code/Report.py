@@ -1,5 +1,16 @@
-# https://www.geeksforgeeks.org/python/how-to-add-an-image-in-tkinter/
-
+#####################################################################
+# Authors: Artem Kurasov
+# Username: kurasova
+#
+# Assignment: P01 - Final Project
+#
+# Purpose: Writing code for the Report class, which
+# will display the report of a specific person
+######################################################################
+# Acknowledgments:
+#   Adding Images to TKInter: https://www.geeksforgeeks.org/python/how-to-add-an-image-in-tkinter/
+#   CustomTKInter Documentation: https://customtkinter.tomschimansky.com/
+######################################################################
 
 import customtkinter as ctk
 
