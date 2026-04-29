@@ -6,11 +6,11 @@
 #
 # Purpose: A class that creates the user interface, and interacts with
 # the form and report class, allowing the user to enter their information
-# see their results displayed on the screen
+# and see their results displayed on the screen.
 #
 # Acknowledgements:
-#
-#
+# - Website on how to use custom tkinter:
+#   https://customtkinter.tomschimansky.com/documentation/windows/window/
 #
 ######################################################################
 
