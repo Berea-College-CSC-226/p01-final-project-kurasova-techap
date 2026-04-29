@@ -32,7 +32,7 @@ class Form:
     def __init__(self, screen):
         """
         Creates a form for the user to enter their information and that of their beloved.
-        :param screen: UI object - where the form will be displayed
+        :param screen: UI object - where the form will be displayed.
         """
         self.font = ctk.CTkFont(size = 15)
         self.frame = ctk.CTkFrame(screen)
