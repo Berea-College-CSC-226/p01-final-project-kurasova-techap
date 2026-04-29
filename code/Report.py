@@ -2,7 +2,6 @@
 
 
 import customtkinter as ctk
-from Person import Person
 
 class Report:
     def __init__(self, screen):
