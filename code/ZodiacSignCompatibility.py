@@ -4,10 +4,8 @@
 #
 # Assignment: P01 - Final Project
 #
-# Purpose: Writing code for the Person class, which will
-# store data about a person, including the following
-# information: their name, date of birth, zodiac sign,
-# element, and Kua number.
+# Purpose: Writing code for the Zodiac Sign Compatibility class, which will
+# evaluate the compatibility between two people based on their zodiac signs
 ######################################################################
 # Acknowledgments:
 #   Used Wikipedia for ZSC_table: https://en.wikipedia.org/wiki/Chinese_zodiac

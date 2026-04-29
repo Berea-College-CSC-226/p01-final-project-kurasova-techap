@@ -20,15 +20,17 @@ from KuaNumber import KuaNumber
 class Person:
     def __init__(self, name, birth_year, biological_sex, birth_month, birth_day):
 
+        assert isinstance(name, str)
         self.name                       = name
-        self.birth_year                 = birth_year
-        self.biological_sex             = biological_sex
-        self.birth_month                = birth_month
-        self.birth_day                  = birth_day
 
         self.__zodiac_sign_object       = ZodiacSign(birth_year, birth_month, birth_day)
         self.__element_object           = Element(birth_year, birth_month, birth_day)
         self.__kua_number_object        = KuaNumber(birth_year, biological_sex, birth_month, birth_day)
+
+        self.birth_year                 = birth_year
+        self.biological_sex             = biological_sex
+        self.birth_month                = birth_month
+        self.birth_day                  = birth_day
 
         self.zodiac_sign                = self.__zodiac_sign_object.value
         self.element                    = self.__element_object.value
