@@ -36,9 +36,9 @@ class ElementCompatibility(CompatibilityKP):
     )
 
     description_dict = {
-        2: "Part of the creative cycle: highly compatible",
-        1: "Mutual relationship: compatible/stable",
-        -1: "Part of the destructive cycle: not compatible"
+        2: "Highly compatible: Part of the creative cycle.",
+        1: "compatible/stable: Mutual relationship(same elements)",
+        -1: "Not compatible: Part of the destructive cycle"
     }
 
     def evaluate(self):
