@@ -16,6 +16,26 @@
 
 from AbstractClasses import GenderedKP
 class KuaNumber(GenderedKP):
+
+    description_dict = {
+        1: "Prosperity: Southeast, Health: East, Love: South , Career: North, Accidents: West, Five Ghosts: Northeast, "
+           "Six killings: Northwest, Total Loss: Southwest",
+        2: "Prosperity: Northeast, Health: West, Love: Northwest, Career: Southwest, Accidents: East, Five Ghosts: Southeast,"
+           "Six killings: South, Total Loss: North",
+        3: "Prosperity: South, Health: North, Love: Southeast, Career: East, Accidents: Southwest, Five Ghosts: Northwest,"
+           "Six killings: Northeast, Total Loss: West",
+        4: "Prosperity: North, Health: South, Love: East, Career: Southeast, Accidents: Northwest, Five Ghosts: Southwest,"
+           "Six killings: West, Total Loss: Northeast",
+        6: "Prosperity: West, Health: Northeast, Love: Southwest, Career: Northwest, Accidents: Southeast, Five Ghosts: East,"
+           "Six killings: North, Total Loss: South",
+        7: "Prosperity: Northwest, Health: Southwest, Love: Northeast, Career: West, Accidents: North, Five Ghosts: South, "
+           "Six killings: Southeast, Total Loss: East",
+        8: "Prosperity: Southwest, Health: Northwest, Love: West, Career: Northeast, Accidents: South, Five Ghosts: North, "
+           "Six killings: East, Total Loss: Southeast",
+        9: "Prosperity: East, Health: Southeast, Love: North, Career: South, Accidents: Northeast, Five Ghosts: West, "
+           "Six killings: Southwest, Total Loss: Northwest"
+    }
+
     def evaluate(self):
         """
         Calculates the user's Kua Number
