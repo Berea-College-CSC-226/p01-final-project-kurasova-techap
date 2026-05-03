@@ -45,18 +45,18 @@ class ZodiacSign(KPWithImages):
 
     }
     images = {
-        "Monkey": "",
-        "Rooster": "",
-        "Dog": "",
-        "Pig": "",
-        "Rat": "",
-        "Ox": "",
-        "Tiger": "",
-        "Rabbit": "",
-        "Dragon": "",
-        "Snake": "",
-        "Horse": "",
-        "Goat": ""
+        "Monkey": "../zodiacs/monkey.png",
+        "Rooster": "../zodiacs/rooster.png",
+        "Dog": "../zodiacs/dog.png",
+        "Pig": "../zodiacs/pig.png",
+        "Rat": "../zodiacs/rat.png",
+        "Ox": "../zodiacs/ox.png",
+        "Tiger": "../zodiacs/tiger.png",
+        "Rabbit": "../zodiacs/rabbit.png",
+        "Dragon": "../zodiacs/dragon.png",
+        "Snake": "../zodiacs/snake.png",
+        "Horse": "../zodiacs/horse.png",
+        "Goat": "../zodiacs/goat.png"
     }
 
 

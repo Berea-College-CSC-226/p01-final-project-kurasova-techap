@@ -13,6 +13,7 @@
 ######################################################################
 
 import customtkinter as ctk
+from PIL import Image
 
 class Report:
     def __init__(self, screen):
@@ -30,7 +31,9 @@ class Report:
         self.kua_number = None
 
         self.zodiac_sign_image = None
+        self.zsi_label = None
         self.element_image = None
+        self.ei_label = None
 
         self.personal_description = None
 
@@ -46,8 +49,13 @@ class Report:
         self.element = ctk.CTkLabel(screen, text = person.element, font = ("Arial", 15))
         self.kua_number = ctk.CTkLabel(screen, text = person.kua_number, font = ("Arial", 15))
 
-        #self.zodiac_sign_image = ctk.CTkImage(screen)
-        #self.element_image = ctk.CTkImage(screen)
+        self.zodiac_sign_image = ctk.CTkImage(light_image = Image.open(person.zodiac_sign_image),
+                                              size = (100, 100))
+        self.zsi_label = ctk.CTkLabel(screen, image = self.zodiac_sign_image, text = "")
+
+        self.element_image = ctk.CTkImage(light_image = Image.open(person.element_image),
+                                              size = (100, 100))
+        self.ei_label = ctk.CTkLabel(screen, image = self.element_image, text = "")
 
         self.personal_description = ctk.CTkLabel(screen, text = person.description)
 
@@ -61,8 +69,8 @@ class Report:
         self.element.place(x = 700, y = 100)
         self.kua_number.place(x = 700, y = 125)
 
-        #self.zodiac_sign_image.place(x = 500, y = 90)
-        #self.element_image.place(x = 500, y = 100)
+        self.zsi_label.place(x = 750, y = 50)
+        self.ei_label.place(x = 860, y = 50)
 
         self.personal_description.place(x = 500, y = 110)
 

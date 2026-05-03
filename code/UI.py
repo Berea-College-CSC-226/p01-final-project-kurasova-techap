@@ -11,7 +11,8 @@
 # Acknowledgements:
 # - Website on how to use custom tkinter:
 #   https://customtkinter.tomschimansky.com/documentation/windows/window/
-#
+# - Changing the background image:
+#   https://stackoverflow.com/questions/2744795/background-color-for-tk-in-python
 ######################################################################
 
 import customtkinter as ctk
@@ -25,6 +26,7 @@ class UI(ctk.CTk):
 
         self.geometry("1000x500")
         self.title("Chinese Metaphysics")
+        self.configure(fg_color = "white")
 
         self.users_form = Form(self)
 

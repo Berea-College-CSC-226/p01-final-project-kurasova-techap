@@ -29,7 +29,13 @@ class Element(KPWithImages):
         9: "Earth"
     }
     description_dict = {}
-    images = {}
+    images = {
+        "Metal":    "../elements/metal.png",
+        "Water":    "../elements/water.png",
+        "Wood":     "../elements/wood.png",
+        "Fire":     "../elements/fire.png",
+        "Earth":    "../elements/earth.png"
+    }
 
     def evaluate(self):
         """
