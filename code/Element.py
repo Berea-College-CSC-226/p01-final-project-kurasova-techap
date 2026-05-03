@@ -42,6 +42,14 @@ class Element(KPWithImages):
                  "associated with emotions of worry and overthinking."
     }
     images = {}
+    description_dict = {}
+    images = {
+        "Metal":    "../elements/metal.png",
+        "Water":    "../elements/water.png",
+        "Wood":     "../elements/wood.png",
+        "Fire":     "../elements/fire.png",
+        "Earth":    "../elements/earth.png"
+    }
 
     def evaluate(self):
         """
