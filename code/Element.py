@@ -41,8 +41,7 @@ class Element(KPWithImages):
         "Earth": "Earth is a symbol of stability, nourishment, and grounding. Its color is yellow, and it is usually"
                  "associated with emotions of worry and overthinking."
     }
-    images = {}
-    description_dict = {}
+
     images = {
         "Metal":    "../elements/metal.png",
         "Water":    "../elements/water.png",

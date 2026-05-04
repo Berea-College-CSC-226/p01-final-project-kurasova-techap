@@ -61,12 +61,12 @@ class ZodiacSignCompatibility(CompatibilityKP):
     #  2 represents Four Trines.         (THE BEST MATCHES!)
 
     description_dict = {
-        -3: "Not Compatible: Represents Punishment Groups.",
-        -2: "Not Compatible: Represents Harming Groups.",
-        -1: "Not compatible: Represents Offending Groups.",
-         0: "Mutual match",
-         1: "Compatible: Represents Six Harmonies.",
-         2: "Highly Compatible: Represents Four Trines."
+        -3: "Not Compatible: Punishment Groups.",
+        -2: "Not Compatible: Harming Groups.",
+        -1: "Not compatible: Offending Groups.",
+         0: "Neutral match",
+         1: "Compatible: Six Harmonies.",
+         2: "Highly Compatible: Four Trines."
     }
 
     def evaluate(self):
