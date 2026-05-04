@@ -44,10 +44,11 @@ class KuaNumberCompatibility(CompatibilityKP):
     #  2 represents Love <3.                        (THE BEST MATCHES!)
 
     description_dict = {
-         2: "",
-         1: "",
-        -1: "",
-        -2: ""
+         2: "Highly Compatible: Romantic Relationship",
+         1: "Compatible: Friendly Relationship",
+         0: "No Feasible Compatibility",
+        -1: "Neutral Relationship",
+        -2: "Not Compatible"
     }
 
     def evaluate(self):

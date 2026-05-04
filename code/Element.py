@@ -11,7 +11,8 @@
 # Acknowledgements:
 # Article on how to evaluate your element according to Chinese Metaphysics
 # - https://shopceremonie.com/blog1/how-to-determine-your-elements
-#
+# Article on the meanings of the various elements
+# - https://ohcomassagechairs.com/news-recognition/shiatsu-and-the-five-elements-theory/
 ######################################################################
 
 from AbstractClasses import KPWithImages
@@ -28,7 +29,19 @@ class Element(KPWithImages):
         8: "Earth",
         9: "Earth"
     }
-    description_dict = {}
+    description_dict = {
+        "Metal": "Metal symbolizes clarity, strength, discipline, and precision. It goes hand in gloves with emotions of"
+                 "grief and sadness, and its color is white.",
+        "Water": "Water is an element that represents wisdom, fluidity, and adaptability. It is often associated with the"
+                 "color blue, and emotions of fear and insecurity.",
+        "Wood": "The wood element is a blend of two worlds, symbol of growth, creativity, alertness, and creativity."
+                "Green comes up in the discussion of wood, as well as emotions of anger and frustration.",
+        "Fire": "The fire element is synonymous to enthusiasm, warmth, passion, and flexibility. It is associated with the"
+                "color red and emotions of joy and excitement.",
+        "Earth": "Earth is a symbol of stability, nourishment, and grounding. Its color is yellow, and it is usually"
+                 "associated with emotions of worry and overthinking."
+    }
+
     images = {
         "Metal":    "../elements/metal.png",
         "Water":    "../elements/water.png",
