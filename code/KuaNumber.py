@@ -18,22 +18,22 @@ from AbstractClasses import GenderedKP
 class KuaNumber(GenderedKP):
 
     description_dict = {
-        1: "Prosperity: Southeast, Health: East, Love: South , Career: North, Accidents: West, Five Ghosts: Northeast, "
-           "Six killings: Northwest, Total Loss: Southwest",
-        2: "Prosperity: Northeast, Health: West, Love: Northwest, Career: Southwest, Accidents: East, Five Ghosts: Southeast,"
-           "Six killings: South, Total Loss: North",
-        3: "Prosperity: South, Health: North, Love: Southeast, Career: East, Accidents: Southwest, Five Ghosts: Northwest,"
-           "Six killings: Northeast, Total Loss: West",
-        4: "Prosperity: North, Health: South, Love: East, Career: Southeast, Accidents: Northwest, Five Ghosts: Southwest,"
-           "Six killings: West, Total Loss: Northeast",
-        6: "Prosperity: West, Health: Northeast, Love: Southwest, Career: Northwest, Accidents: Southeast, Five Ghosts: East,"
-           "Six killings: North, Total Loss: South",
-        7: "Prosperity: Northwest, Health: Southwest, Love: Northeast, Career: West, Accidents: North, Five Ghosts: South, "
-           "Six killings: Southeast, Total Loss: East",
-        8: "Prosperity: Southwest, Health: Northwest, Love: West, Career: Northeast, Accidents: South, Five Ghosts: North, "
-           "Six killings: East, Total Loss: Southeast",
-        9: "Prosperity: East, Health: Southeast, Love: North, Career: South, Accidents: Northeast, Five Ghosts: West, "
-           "Six killings: Southwest, Total Loss: Northwest"
+        1: "Based on your Kua number, your prosperity side is on the Southeast; your health side is on the east; your love is south; and your career is North. Meanwhile, the sides you should avoid "
+           "include the West (Accidents), Northeast (Five Ghosts), Northwest (Six killings), and especially Southwest (Total Loss).",
+        2: "Based on your Kua number, your prosperity side is on the Northeast; your health side is on the West; your love is Northwest; and your career is Southwest. Meanwhile, the sides you should avoid "
+           "include the East (Accidents), Southeast (Five Ghosts), South (Six killings), and especially North (Total Loss).",
+        3: "Based on your Kua number, your prosperity side is on the South; your health side is on the North; your love is Southeast; and your career is East. Meanwhile, the sides you should avoid "
+           "include the Southwest (Accidents), Northwest (Five Ghosts), Northeast (Six killings), and especially West (Total Loss).",
+        4: "Based on your Kua number, your prosperity side is on the North; your health side is on the South; your love is East; and your career is Southeast. Meanwhile, the sides you should avoid "
+           "include the Northwest (Accidents), Southwest (Five Ghosts), West (Six killings), and especially Northeast (Total Loss).",
+        6: "Based on your Kua number, your prosperity side is on the West; your health side is on the Northeast; your love is Southwest; and your career is Northwest. Meanwhile, the sides you should avoid "
+           "include the Southeast (Accidents), East (Five Ghosts), North (Six killings), and especially South (Total Loss).",
+        7: "Based on your Kua number, your prosperity side is on the Northwest; your health side is on the Southwest; your love is Northeast; and your career is West. Meanwhile, the sides you should avoid "
+           "include the North (Accidents), South (Five Ghosts), Southeast (Six killings), and especially East (Total Loss).",
+        8: "Based on your Kua number, your prosperity side is on the Southwest; your health side is on the Northwest; your love is West; and your career is Northeast. Meanwhile, the sides you should avoid "
+           "include the South (Accidents), North (Five Ghosts), East (Six killings), and especially Southeast (Total Loss).",
+        9: "Based on your Kua number, your prosperity side is on the East; your health side is on the  Southeast; your love is North; and your career is South. Meanwhile, the sides you should avoid "
+           "include the Northeast (Accidents), West (Five Ghosts), Southwest (Six killings), and especially Northwest (Total Loss)."
     }
 
     def evaluate(self):
@@ -75,16 +75,6 @@ class KuaNumber(GenderedKP):
                 kua_number = 8
 
         self.value = kua_number
-
-def main():
-    """
-    Determines the user's zodiac sign and a brief description of it.
-    :return: None
-    """
-    user1 = KuaNumber(2004,"male", 5, 25)
-    print(user1.value)
-
-if __name__ == "__main__":
-    main()
+        return kua_number
 
 

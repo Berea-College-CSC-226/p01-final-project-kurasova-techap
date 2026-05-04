@@ -58,12 +58,18 @@ class UI(ctk.CTk):
 
     def submit(self):
         person = self.__get_data(self.users_form)
-        self.users_report.update_personal_report(self, person)
+        try:
+            self.users_report.update_personal_report(self, person)
+        except AttributeError:
+            ...
 
     def submit_2(self):
         person1 = self.__get_data(self.users_form)
         person2 = self.__get_data(self.other_persons_form)
-        self.users_report.update_compatibility_report(self, person1, person2)
+        try:
+            self.users_report.update_compatibility_report(self, person1, person2)
+        except AssertionError:
+            ...
 
     def add_more(self):
         self.other_persons_form = Form(self, x_shift = 330)

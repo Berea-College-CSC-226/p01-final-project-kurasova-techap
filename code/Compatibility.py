@@ -31,5 +31,4 @@ class Compatibility:
         self.description                            = self.combine_descriptions()
 
     def combine_descriptions(self):
-        # TODO: Write the code for this function after finishing the descriptions
-        return self.zodiac_sign_compatibility_description
+        return str(self.zodiac_sign_compatibility_description) + str(self.element_compatibility_description) + str(self.kua_number_compatibility_description)

@@ -61,13 +61,18 @@ class ZodiacSignCompatibility(CompatibilityKP):
     #  2 represents Four Trines.         (THE BEST MATCHES!)
 
     description_dict = {
-        -3: "Not Compatible: Punishment Groups.",
-        -2: "Not Compatible: Harming Groups.",
-        -1: "Not compatible: Offending Groups.",
-         0: "Neutral match",
-         1: "Compatible: Six Harmonies.",
-         2: "Highly Compatible: Four Trines."
+        -3: "Regarding the person you have chosen as a companion, I have unfortunate news for you. Not only "
+            "are you incompatible with them, but also you two are in the punishment group, which is worse than harming "
+            "and offending. There is no way for you to be together!",
+        -2: "When it comes to the person you have chosen as a companion, you are not compatible with them"
+            "because you two are in a Harming Group.",
+        -1: "Regarding the person you have chosen as a companion, you are not very compatible as you "
+            "two are in an Offending Group.",
+         0: "Regarding the person you have chosen as a companion, you are a Neutral match.",
+         1: "Regarding the person you have chosen as a companion, you are highly compatible for intimate relationships (Six Harmonies).",
+         2: "Regarding the person you have chosen as a companion, you are highly Compatible as a teammate or a business partner (Four Trines)."
     }
 
     def evaluate(self):
         self.value = ZSC_table[zodiac_signs[self.person_1.zodiac_sign]][zodiac_signs[self.person_2.zodiac_sign]]
+        return self.value

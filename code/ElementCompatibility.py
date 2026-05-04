@@ -36,9 +36,9 @@ class ElementCompatibility(CompatibilityKP):
     )
 
     description_dict = {
-        2: "Highly compatible: Part of the creative cycle.",
-        1: "compatible/stable: Mutual relationship(same elements).",
-        -1: "Not compatible: Part of the destructive cycle."
+        2: "Looking at your elements, we can state that you guys are highly compatible (Part of the constructive cycle).",
+        1: "Looking at your elements, we can say that you two are compatible/stable: it is what we call a mutual relationship (the same elements).",
+        -1: "If we take a look at your elements, we can state that Not compatible, being part of the destructive cycle."
     }
 
     def evaluate(self):
@@ -49,5 +49,6 @@ class ElementCompatibility(CompatibilityKP):
         self.person_1.birth_year = str(self.person_1.birth_year )
         self.person_2.birth_year = str(self.person_2.birth_year)
         self.value = self.EC_table[int(self.person_1.birth_year[-1])][int(self.person_2.birth_year[-1])]
+        return self.value
 
 
