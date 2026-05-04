@@ -29,7 +29,7 @@ for day in range(1, 32):
     days.append(str(day))
 
 class Form:
-    def __init__(self, screen, x_shift = 0):
+    def __init__(self, screen, x_shift = 0, nameLabel = "Your Name:"):
         """
         Creates a form for the user to enter their information and that of their beloved.
         :param screen: UI object - where the form will be displayed.
@@ -37,7 +37,7 @@ class Form:
         """
         self.font = ctk.CTkFont(size = 15)
         self.frame = ctk.CTkFrame(screen)
-        self.name = ctk.CTkLabel(screen, text = "Your Name:", font=("Arial", 15, "bold"))
+        self.name = ctk.CTkLabel(screen, text = nameLabel, font=("Arial", 15, "bold"))
         self.name.place(x = x_shift + 50, y = 50)
         self.name_entry = ctk.CTkEntry(screen, width= 150, height = 20, font = self.font )
         self.name_entry.place(x = x_shift + 50, y = 90)

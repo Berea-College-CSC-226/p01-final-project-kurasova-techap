@@ -14,6 +14,8 @@
 
 import customtkinter as ctk
 from PIL import Image
+from customtkinter import CTkLabel
+
 from Compatibility import Compatibility
 
 
@@ -46,8 +48,8 @@ class Report:
         :param person: the person whose stats we want to display
         :return: None
         """
-        #canvas = ctk.CTkCanvas(screen, width = 810, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
-        #canvas.place(x = 990, y = 0)
+        canvas = ctk.CTkCanvas(screen, width = 810, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
+        canvas.place(x = 990, y = 0)
 
         self.name_label = ctk.CTkLabel(screen, text = "Name: ", font = ("Arial", 15, "bold"))
         self.zodiac_sign_label = ctk.CTkLabel(screen, text = "Zodiac Sign: ", font = ("Arial", 15, "bold"))
@@ -101,7 +103,7 @@ class Report:
                 """
         self.update_report(screen, person1)
         compatibility = Compatibility(person1, person2)
-        self.description = ctk.CTkLabel(screen, text=str(person1.description) + str(compatibility.description), wraplength = 460)
+        self.description = ctk.CTkLabel(screen, text=str(person1.description) + " " + str(compatibility.description), wraplength = 460)
         self.description.place(x=700, y=200)
 
 

@@ -72,7 +72,7 @@ class UI(ctk.CTk):
             ...
 
     def add_more(self):
-        self.other_persons_form = Form(self, x_shift = 330)
+        self.other_persons_form = Form(self, x_shift = 330, nameLabel= "Your Partner's Name:")
         self.add_more_button.destroy()
         self.submit_button.destroy()
         self.submit_2_button.place(x=380, y=320)
