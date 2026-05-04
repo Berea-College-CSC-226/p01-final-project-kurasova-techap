@@ -21,7 +21,7 @@ months = ["January", "February", "March", "April",
           "October", "November", "December"]
 
 years = []
-for year in range(1900, 2031):
+for year in range(2030, 1900, -1):
     years.append(str(year))
 
 days = []

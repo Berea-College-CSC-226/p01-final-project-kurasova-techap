@@ -46,8 +46,8 @@ class Report:
         :param person: the person whose stats we want to display
         :return: None
         """
-        canvas = ctk.CTkCanvas(screen, width = 830, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
-        canvas.place(x = 970, y = 0)
+        canvas = ctk.CTkCanvas(screen, width = 810, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
+        canvas.place(x = 990, y = 0)
 
         self.name_label = ctk.CTkLabel(screen, text = "Name: ", font = ("Arial", 15, "bold"))
         self.zodiac_sign_label = ctk.CTkLabel(screen, text = "Zodiac Sign: ", font = ("Arial", 15, "bold"))
