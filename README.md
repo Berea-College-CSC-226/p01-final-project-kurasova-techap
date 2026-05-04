@@ -79,7 +79,7 @@ KuaNumber.py:
 
 
 ZodiacSignCompatibility.py: 
-- Used Wikipedia for the Zodiac Sign Compatability table: https://en.wikipedia.org/wiki/Chinese_zodiac
+- Used Wikipedia for the Zodiac Sign Compatibility table: https://en.wikipedia.org/wiki/Chinese_zodiac
 
 ---
 
@@ -123,14 +123,26 @@ Indicate what percentage of the project you have left to complete and how confid
 
 ## Milestone 4: Final Code, Presentation, Demo
 
-### ❗User Instructions
+### User Instructions
 
-❗In a paragraph, explain how to use your program. Assume the user is starting just after they hit the "Run" button 
-in PyCharm. 
+In a paragraph, explain how to use your program. Assume the user is starting just after they hit the "Run" button 
+in PyCharm.
+```
+    After hitting the run button, a form is displayed on the GUI that prompts the user to enter their name, date of 
+    birth, and biological sex. When the user fills out the form, they have the option of submitting the form or adding 
+    another form. If they click on the 'submit' button, their report will be displayed on the screen. This report contains 
+    their Chinese zodiac sign, element, and kua numbers, as well as their pictorial representation and descriptions. If 
+    they click on the 'add more' button, another form will be displayed on the GUI that prompts them to fill out the 
+    information of the person they want to compare themselves with. After filling out the new form out, they can now proceed 
+    to hitting the next submit button. Following this, a compatibility report of their zodiac sign, element, and kua 
+    number will be displayed on the screen. They user can read the report to determine if they are a match with the other
+    person or not, which brings the user to the end of the program. 
+    
+```
 
-### ❗Errors and Constraints
+### Errors and Constraints
 
-❗Every program has bugs or features that had to be scrapped for time. These bugs should be tracked in the issue queue. 
+Every program has bugs or features that had to be scrapped for time. These bugs should be tracked in the issue queue. 
 You should already have a few items in here from the prior weeks. Create a new issue for any undocumented errors and 
 deficiencies that remain in your code. Bugs found that aren't acknowledged in the queue will be penalized.
 
@@ -145,7 +157,29 @@ deficiencies that remain in your code. Bugs found that aren't acknowledged in th
 - How well did you work with your partner? What made it go well? What made it challenging?
 
 ```
-    Partner 1: **Replace this with your reflection
+    Partner 1: 
+    The initial idea we had in mind when we started working on this project was to create a program that determines a user's 
+    Chinese zodiac sign, element, and kua number, explain what each of them mean, and compare them to their beloved
+    if they wish to. Also, if they are not compatible with their beloved, offer some tips that could help them live in 
+    harmony. Looking at the final product we have, it is pretty much in line with what we had envisioned, except for giving
+    the user tips if they are not compatible with they person they compared themselves with.
+    
+    Working on this project increased my communication and team work skills. Initially, I always preferred individual work,
+    but this course as a whole and the project in particular made me understand the importance of effective communication 
+    in teamwork and helped me to become a better team player. In regards to technical skills, this project made me relearn
+    almost everything previously taught in this course, from if else statements to GUIs, and a lot more. It also enabled 
+    me to better comprehend Git and GitHub, and how to use them professionally. Finally, one of the most important things 
+    I learned throughout this process is the art of effective problem solving, from breaking down the problem into 
+    manageable tasks to debugging.
+    
+    The hardest part of this project was the first step, applying top down design. It what challenging because it required
+    great understanding of the project and knowledge of what the final product will look like without implementing any code.
+    One thing I would have done differently is trying to understand everything on my own. Next time, I would ask my partner
+    more questions about anything I do not understand and possibly seek help from TAs if still do not understand.
+    
+    Working with my partner was really effective because we always scheduled in-persons meetings where we dicussed our 
+    ideas and made progressed together towards completing the project. Also, we closely monitored our progress and made 
+    sure everyone was contributing to the project by completing their tasks on time.
 ```
 
 ```
