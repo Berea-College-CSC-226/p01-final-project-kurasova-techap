@@ -46,8 +46,8 @@ class Report:
         :param person: the person whose stats we want to display
         :return: None
         """
-        canvas = ctk.CTkCanvas(screen, width = 810, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
-        canvas.place(x = 990, y = 0)
+        #canvas = ctk.CTkCanvas(screen, width = 810, height = 500, bg = "white", highlightthickness = 0, borderwidth = 0)
+        #canvas.place(x = 990, y = 0)
 
         self.name_label = ctk.CTkLabel(screen, text = "Name: ", font = ("Arial", 15, "bold"))
         self.zodiac_sign_label = ctk.CTkLabel(screen, text = "Zodiac Sign: ", font = ("Arial", 15, "bold"))
@@ -88,8 +88,8 @@ class Report:
         :return: None
         """
         self.update_report(screen, person)
-        self.description = ctk.CTkLabel(screen, text=person.description)
-        self.description.place(x=500, y=110)
+        self.description = ctk.CTkLabel(screen, text=person.description, wraplength = 460)
+        self.description.place(x=700, y=200)
 
     def update_compatibility_report(self, screen, person1, person2):
         """
@@ -101,7 +101,7 @@ class Report:
                 """
         self.update_report(screen, person1)
         compatibility = Compatibility(person1, person2)
-        self.description = ctk.CTkLabel(screen, text = str(person1.description) + str(compatibility.description), wraplength = 300)
+        self.description["text"]= str(person1.description) + str(compatibility.description)
         self.update_report(screen, person1)
 
 
