@@ -9,7 +9,7 @@
 # of your element.
 #
 # Acknowledgements:
-# Article on how to evaluate your element according to Chinese Metaphysics
+# Article on how to evaluate your element according to Chinese Metaphysics: https://www.yourtango.com/zodiac/chinese-zodiac-elements
 #
 #
 ######################################################################

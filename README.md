@@ -2,9 +2,6 @@
 
 ## Instructions
 
-❗️Exclamation Marks ❗️indicate action items; you should remove these emoji as you complete/update the items which 
-  they accompany. (This means that your final README should have no ❗️in it!)
-
 **Author(s)**: Artem Kurasov, Pride Akana Techa
 
 **Google Doc Link**: https://docs.google.com/document/d/1Nnn_zMXkiQrOK2F41I0CO6-Wi5TF_GXp1tDYt5-hF7M/edit?usp=sharing
@@ -29,18 +26,13 @@
     README. You can do this by saving an image in the repository and linking to it. See the sample CRC card below - 
     and REPLACE it with your own:
   
-![KP.png](image/KP.png)
-![Zodiac sign.png](image/Zodiac%20sign.png)
-![Element.png](image/Element.png)
-![KN.png](image/KN.png)
-![Person.png](image/Person.png)
-![ZSC.png](image/ZSC.png)
-![EC.png](image/EC.png)
-![KNC.png](image/KNC.png)
-![Compatibility.png](image/Compatibility.png)
-![Form.png](image/Form.png)
-![Report.png](image/Report.png)
-![UI.png](image/UI.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-0.png](images/3f6ddcada2ad8f171b4b569067ed32e5-0.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-1.png](images/3f6ddcada2ad8f171b4b569067ed32e5-1.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-2.png](images/3f6ddcada2ad8f171b4b569067ed32e5-2.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-3.png](images/3f6ddcada2ad8f171b4b569067ed32e5-3.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-4.png](images/3f6ddcada2ad8f171b4b569067ed32e5-4.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-5.png](images/3f6ddcada2ad8f171b4b569067ed32e5-5.png)
+![3f6ddcada2ad8f171b4b569067ed32e5-6.png](images/3f6ddcada2ad8f171b4b569067ed32e5-6.png)
 
 **Branches**: This project will **require** effective use of git. 
 
@@ -55,7 +47,7 @@ into your own, following the process we've discussed in previous assignments, th
 
 ### References 
 
-❗Throughout this project, you will likely use outside resources. Reference all ideas which are not your own, 
+Throughout this project, you will likely use outside resources. Reference all ideas which are not your own, 
 and describe how you integrated the ideas or code into your program. This includes online sources, people who have 
 helped you, AI tools you've used, and any other resources that are not solely your own contribution. Update this 
 section as you go. DO NOT forget about it!
@@ -71,15 +63,34 @@ AbstractClasses.py:
 
 Element.py: 
 - Article on how to evaluate your element according to Chinese Metaphysics: https://shopceremonie.com/blog1/how-to-determine-your-elements
+- Article on the meanings of the various elements: https://ohcomassagechairs.com/news-recognition/shiatsu-and-the-five-elements-theory/
 
 KuaNumber.py: 
 - Video and article on how to calculate the Kua Number:
   - https://www.youtube.com/shorts/cy6r7imx4Uo
   - https://wehomzfurn.com/blogs/decoration-ideas/how-to-calculate-your-kua-number-a-complete-guide-for-2026
 
-
 ZodiacSignCompatibility.py: 
-- Used Wikipedia for the Zodiac Sign Compatibility table: https://en.wikipedia.org/wiki/Chinese_zodiac
+- Used Wikipedia for the Zodiac Sign Compatibility table: https://en.wikipedia.org/wiki/Chinese_zodiac (Accessed on April 19, 2026)
+
+ElementCompatibility.py: 
+- Article on how to evaluate your element according to Chinese Metaphysics: https://www.yourtango.com/zodiac/chinese-zodiac-elements
+
+KuaNumberCompatibility.py: 
+- More on Kua Number Compatibility: https://www.karmaweather.com/well-being/feng-shui/bagua-kua-number
+
+Report.py: 
+- Adding Images to TKInter: https://www.geeksforgeeks.org/python/how-to-add-an-image-in-tkinter/
+- CustomTKInter Documentation: https://customtkinter.tomschimansky.com/
+
+UI.py: 
+- Website on how to use custom tkinter: https://customtkinter.tomschimansky.com/documentation/windows/window/
+- Changing the background image: https://stackoverflow.com/questions/2744795/background-color-for-tk-in-python
+- Disabling resizability of the window: https://www.tutorialspoint.com/article/how-can-i-prevent-a-window-from-being-resized-with-tkinter
+
+Form.py: 
+- More on the CTKFont class: https://customtkinter.tomschimansky.com/documentation/utility-classes/font/
+
 
 ---
 
@@ -146,9 +157,9 @@ Every program has bugs or features that had to be scrapped for time. These bugs 
 You should already have a few items in here from the prior weeks. Create a new issue for any undocumented errors and 
 deficiencies that remain in your code. Bugs found that aren't acknowledged in the queue will be penalized.
 
-### ❗Reflection
+### Reflection
 
-❗Each partner should write three to four well-written paragraphs address the following (at a minimum):
+Each partner should write three to four well-written paragraphs address the following (at a minimum):
 - Why did you select the project that you did?
 - How closely did your final project reflect your initial design?
 - What did you learn from this process?
@@ -183,7 +194,38 @@ deficiencies that remain in your code. Bugs found that aren't acknowledged in th
 ```
 
 ```
-    Partner 2: **Replace this with your reflection
+    Partner 2: 
+    
+    As I am about to delve deeper into my feelings on our project, I would like to start off by saying that it was 
+    the first major project I have shared with another person. Before the final project of CSC 226, I have worked
+    on everything big completely alone (partly because of a fear that my partners can mess everything up). Therefore, 
+    this project taught me to be patient, persevere, and most importantly, willing to share my vision with others. 
+    I realized that when you have an idea, people can often expand it in a way you would never think of. This is the
+    greatest aspect of teamwork, and this is the most important thing I have learned from this final project. 
+    
+    When it comes to the topic we have chosen for the final project, we decided to work on Chinese Metaphysics 
+    for several reasons. Even though things like Astrology, Numerology, or Metaphysics induce a lot of anxiety, they 
+    are also a fun way to learn more about yourself if you don’t take them very seriously. Besides that, we wanted 
+    to create something that other people did not do (at least, in this year’s CSC 226 class), and we thought that 
+    Chinese Metaphysics would not be a popular choice.
+    
+    Honestly, didn’t expect our final project to go as smoothly as it did, so it’s rather hard to point at a specific 
+    issue that I would like to improve upon by the next project. I would say that the final project reflected the 
+    initial design quite well. Nonetheless, there were some ideas that were scrapped simply because of the lack of time, 
+    and the way we decided to structure the code (CRC Cards) changed drammatically over the course of the project. 
+    Other than that, we achieved what we planned, and it’s a big accomplishment in-and-of itself. Nevertheless, I would 
+    personally meet up more with my teammate next time but for a shorter period of time (1-3 hour sessions,
+    instead of 4-5 hour ones, which is what we often had): that would just make us feel less burned out by the end. 
+    Therefore, as you might have guessed, the hardest part of the project for me was the last two weeks of the final 
+    project. It was mainly because of the fatigue that I often experience at the end of every project. 
+    Things are getting more habitual and less interesting over time, which makes working on it more cumbersome. 
+    Nonetheless, thanks to having a tenacious teammate like Pride, we got the job done!    
+    
+    I really enjoyed working with Pride, especially because I think that we complement one another very well. 
+    I might have more experience in Python than Pride does, but at the same time, I’m very messy when it comes 
+    to long-term projects because I switch around a lot and act like I have 100 tabs open in my mind. Meanwhile, 
+    Pride is calmer and more organized in her thoughts than I am, so it was really nice to work with her. I didn’t 
+    find anything particularly challenging in working with her. 
 ```
 
 ---

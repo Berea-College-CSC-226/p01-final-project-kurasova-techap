@@ -9,8 +9,7 @@
 # other person they want to compare with.
 #
 # Acknowledgements:
-#
-#
+#    More on the CTKFont class: https://customtkinter.tomschimansky.com/documentation/utility-classes/font/
 #
 ######################################################################
 
