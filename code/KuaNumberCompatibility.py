@@ -44,13 +44,13 @@ class KuaNumberCompatibility(CompatibilityKP):
     #  2 represents Love <3.                        (THE BEST MATCHES!)
 
     description_dict = {
-         2: "Meanwhile, if we look at your partner's Kua Number, you are highly compatible with them for a romantic relationship"
-            "if you put everything to the right your in your house.",
-         1: "Meanwhile, if we look at your partner's Kua Number, you are highly compatible with them for a friendship"
+         2: "Meanwhile, if we look at your partner's Kua Number, you are highly compatible with them for a romantic relationship "
+            "if you put everything in the right direction in your house.",
+         1: "Meanwhile, if we look at your partner's Kua Number, you are highly compatible with them for a friendship "
             "if you follow the Feng Shui rules.",
-        -1: "Meanwhile, if we look at your partner's Kua Number, you might have a very neutral relationship,",
+        -1: "Meanwhile, if we look at your partner's Kua Number, you might have a very neutral relationship.",
         -2: "Meanwhile, if we look at your partner's Kua Number, you can't live with them in the same house: "
-            " you two are incompatible.",
+            "you two are incompatible.",
     }
 
     def evaluate(self):

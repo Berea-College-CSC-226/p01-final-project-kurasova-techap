@@ -26,7 +26,7 @@ class UI(ctk.CTk):
     def __init__(self):
         super().__init__()
 
-        self.geometry("1200x500")
+        self.geometry("1200x600")
         self.title("Chinese Metaphysics")
         self.configure(fg_color = "white")
         self.resizable(False, False)

@@ -46,4 +46,4 @@ class Person:
         self.description                = self.combine_descriptions()
 
     def combine_descriptions(self):
-        return str(self.zodiac_sign_description) + " " + str(self.element_description) + " " + str(self.kua_number_description)
+        return str(self.zodiac_sign_description) + "\n" + str(self.element_description) + "\n" + str(self.kua_number_description)

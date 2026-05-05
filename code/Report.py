@@ -103,7 +103,7 @@ class Report:
                 """
         self.update_report(screen, person1)
         compatibility = Compatibility(person1, person2)
-        self.description = ctk.CTkLabel(screen, text=str(person1.description) + " " + str(compatibility.description), wraplength = 460)
+        self.description = ctk.CTkLabel(screen, text=str(person1.description) + "\n" + str(compatibility.description), wraplength = 460)
         self.description.place(x=700, y=200)
 
 
