@@ -169,11 +169,11 @@ Form.py:
     
     When it comes to the topic we have chosen for the final project, we decided to work on Chinese Metaphysics 
     for several reasons. Even though things like Astrology, Numerology, or Metaphysics induce a lot of anxiety, they 
-    are also a fun way to learn more about yourself if you don’t take them very seriously. Besides that, we wanted 
-    to create something that other people did not do (at least, in this year’s CSC 226 class), and we thought that 
-    Chinese Metaphysics would not be a popular choice.
+    are also a fun way to learn more about yourself. Besides that, we wanted to create something that other people
+    did not do (at least, in this year’s CSC 226 class), and we thought that Chinese Metaphysics would not be a popular
+    choice.
     
-    Honestly, didn’t expect our final project to go as smoothly as it did, so it’s rather hard to point at a specific 
+    Honestly, I didn’t expect our final project to go as smoothly as it did, so it’s rather hard to point at a specific 
     issue that I would like to improve upon by the next project. I would say that the final project reflected the 
     initial design quite well. Nonetheless, there were some ideas that were scrapped simply because of the lack of time, 
     and the way we decided to structure the code (CRC Cards) changed drammatically over the course of the project. 
