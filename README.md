@@ -19,13 +19,7 @@
 **Source Assignment(s)**: `Homework 01: Breaking Bad`
 
 **CRC Card(s)**:
-  - Create a CRC card for each class that your project will implement.
-  - See this link for a sample CRC card and a template to use for your own cards (you will have to make a copy to edit):
-    [CRC Card Example](https://docs.google.com/document/d/1JE_3Qmytk_JGztRqkPXWACJwciPH61VCx3idIlBCVFY/edit?usp=sharing)
-  - Tables in markdown are not easy, so we suggest saving your CRC card as an image and including the image(s) in the 
-    README. You can do this by saving an image in the repository and linking to it. See the sample CRC card below - 
-    and REPLACE it with your own:
-  
+    
 ![3f6ddcada2ad8f171b4b569067ed32e5-0.png](images/3f6ddcada2ad8f171b4b569067ed32e5-0.png)
 ![3f6ddcada2ad8f171b4b569067ed32e5-1.png](images/3f6ddcada2ad8f171b4b569067ed32e5-1.png)
 ![3f6ddcada2ad8f171b4b569067ed32e5-2.png](images/3f6ddcada2ad8f171b4b569067ed32e5-2.png)
@@ -36,21 +30,12 @@
 
 **Branches**: This project will **require** effective use of git. 
 
-Each partner should create a branch at the beginning of the project, and stay on this branch (or branches of their 
-branch) as they work. When you need to bring each others branches together, do so by merging each other's branches 
-into your own, following the process we've discussed in previous assignments, then re-branching out from the merged code.  
-
 ```
     Branch 1 starting name: techap
     Branch 2 starting name: kurasova
 ```
 
 ### References 
-
-Throughout this project, you will likely use outside resources. Reference all ideas which are not your own, 
-and describe how you integrated the ideas or code into your program. This includes online sources, people who have 
-helped you, AI tools you've used, and any other resources that are not solely your own contribution. Update this 
-section as you go. DO NOT forget about it!
 
 AbstractClasses.py: 
 - Used the abc module: https://docs.python.org/3/library/abc.html
@@ -80,8 +65,8 @@ KuaNumberCompatibility.py:
 - More on Kua Number Compatibility: https://www.karmaweather.com/well-being/feng-shui/bagua-kua-number
 
 Report.py: 
-- Adding Images to TKInter: https://www.geeksforgeeks.org/python/how-to-add-an-image-in-tkinter/
-- CustomTKInter Documentation: https://customtkinter.tomschimansky.com/
+- Adding Images to Tkinter: https://www.geeksforgeeks.org/python/how-to-add-an-image-in-tkinter/
+- CustomTkinter Documentation: https://customtkinter.tomschimansky.com/
 
 UI.py: 
 - Website on how to use custom tkinter: https://customtkinter.tomschimansky.com/documentation/windows/window/
@@ -96,11 +81,6 @@ Form.py:
 
 ## Milestone 2: Code Setup and Issue Queue
 
-Most importantly, keep your issue queue up to date, and focus on your code. 🙃
-
-Reflect on what you’ve done so far. How’s it going? Are you feeling behind/ahead? What are you worried about? 
-What has surprised you so far? Describe your general feelings. Be honest with yourself; this section is for you, not me.
-
 ```
     - So far, we are making some progress towards the completion of the project. We're able to work as a team smoothly: we
       meet up at least twice a week to discuss the tasks we were assigned and synchronize our work, making sure that we're 
@@ -114,13 +94,9 @@ What has surprised you so far? Describe your general feelings. Be honest with yo
 
 ## Milestone 3: Virtual Check-In
 
-Indicate what percentage of the project you have left to complete and how confident you feel. 
-
 ️**Completion Percentage**: `76%`
 
-️**Confidence**: Describe how confident you feel about completing this project, and why. Then, describe some 
-  strategies you can employ to increase the likelihood that you'll be successful in completing this project 
-  before the deadline.
+️**Confidence**: 
 
 ```
     - We are very confident about completing this project because we have made great progress so far. We're currently 
@@ -136,8 +112,6 @@ Indicate what percentage of the project you have left to complete and how confid
 
 ### User Instructions
 
-In a paragraph, explain how to use your program. Assume the user is starting just after they hit the "Run" button 
-in PyCharm.
 ```
     After hitting the run button, a form is displayed on the GUI that prompts the user to enter their name, date of 
     birth, and biological sex. When the user fills out the form, they have the option of submitting the form or adding 
@@ -153,19 +127,9 @@ in PyCharm.
 
 ### Errors and Constraints
 
-Every program has bugs or features that had to be scrapped for time. These bugs should be tracked in the issue queue. 
-You should already have a few items in here from the prior weeks. Create a new issue for any undocumented errors and 
-deficiencies that remain in your code. Bugs found that aren't acknowledged in the queue will be penalized.
+- Our project required Python 3.14 and the modules Pillow and CustomTkinter.
 
 ### Reflection
-
-Each partner should write three to four well-written paragraphs address the following (at a minimum):
-- Why did you select the project that you did?
-- How closely did your final project reflect your initial design?
-- What did you learn from this process?
-- What was the hardest part of the final project?
-- What would you do differently next time, knowing what you know now?
-- How well did you work with your partner? What made it go well? What made it challenging?
 
 ```
     Partner 1: 
